@@ -9,7 +9,7 @@ let loglar = [];
 let unCheckedlogs = [];
 let currentLog = fs.readFileSync(`./Checker/${dosya}/loglar.txt`, "utf-8").split("\n");
 let decLog = fs.readFileSync(`./Checker/${dosya}/dec.txt`, "utf-8").split("\n");
-const readStream = fs.createReadStream('./Checker/Loglar/message.txt', 'utf-8');
+const readStream = fs.createReadStream('./Checker/Loglar/loglar.txt', 'utf-8');
 
 readStream.on('data', (chunk) => {
     const logs = chunk.split("\n").map(x => {
