@@ -1,0 +1,19 @@
+{
+  "name": "e-devlet-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Bot/atahan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.14.1",
+    "glob": "^10.3.10",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.5.2"
+  }
+}
